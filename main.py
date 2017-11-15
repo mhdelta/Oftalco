@@ -44,6 +44,11 @@ def update_the_label(label, entry, frame):	#Funcion que permite mostrar los sint
     entry.focus_set()
     global globcount
     global lista_sintomas
+    if(globcount==len(lista_sintomas)-1):
+        print("Symptom limit reached")
+        regresar(frame)
+        globcount = -1
+        return 0
     label.configure(text = lista_sintomas[globcount+1]) #Actualiza el texto de label
 
     verificar(lista_sintomas[globcount], entry.get()) 
