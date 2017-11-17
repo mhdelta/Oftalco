@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter.messagebox import showinfo
 from PIL import Image, ImageTk
 from facts import *
-from proyecto_progra import *
+from input_functions import *
 
 
 
