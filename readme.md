@@ -1,29 +1,70 @@
-# OFTALCO
+# 👁️ OFTALCO
 
-Small expert system done in python with pyDatalog as main logic motor
+![Language](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Logic Engine](https://img.shields.io/badge/Logic-pyDatalog-orange)
+![GUI](https://img.shields.io/badge/GUI-tkinter-lightgreen)
+![Status](https://img.shields.io/badge/Status-Working-brightgreen)
 
-### Prerequisites
+**Oftalco** is a small expert system built in Python that uses **pyDatalog** as the main logic engine.  
+It provides a graphical interface with **tkinter** to help determine possible eye-related diseases based on a set of symptoms.
 
-* tkinter https://wiki.python.org/moin/TkInter
+---
 
-* python 3.x.+ https://www.python.org/downloads/release/python-350/
+## ✨ Features
 
-* pyDatalog https://sites.google.com/site/pydatalog/installation
+- ✅ Knowledge-based reasoning with **pyDatalog**  
+- ✅ GUI built with **tkinter** (buttons, frames, labels, entries)  
+- ✅ Diagnosis suggestion based on user symptoms  
+- ✅ Knowledge stored in a **facts** file  
+- ✅ Minimal ruleset (single assertion with `yes` predicate)  
+- ⚠️ Current version available **only in Spanish**
 
+---
 
-### Usage
+## 📦 Prerequisites
 
-Simply run the main file and follow the buttons messages, it's a small program and pretty easy to catch up.
+Make sure you have the following installed:
 
-Oftalco is made to determine which disease may an user have depending on a set of symptoms (we focus the project in diseases regarding the eyes), it uses a knowledge database described in the file **facts** file, it also uses tkinter to generate a graphical user interface, with some entries, frames, buttons and labels. Rules were omited as only one assertion describe the entire set of rules, the **yes** predicate its able to store all necesary info.
+- [Python 3.x](https://www.python.org/downloads/)  
+- [tkinter](https://wiki.python.org/moin/TkInter) (often included with Python)  
+- [pyDatalog](https://sites.google.com/site/pydatalog/installation)  
 
-*Current version is totally in spanish.*
+---
 
-```
+## 🚀 Usage
+
+Clone the repository and run the main file:
+
+```bash
+git clone https://github.com/your-username/oftalco.git
+cd oftalco
 python3 main.py
+````
+
+Follow the on-screen instructions and button prompts. The program is designed to be simple and intuitive.
+
+---
+
+## 📂 Project Structure
 
 ```
-## Authors
+oftalco/
+├── main.py       # Entry point
+├── facts.py      # Knowledge database
+├── gui.py        # GUI components (frames, buttons, labels, etc.)
+└── README.md     # Project documentation
+```
+
+---
+
+## 📚 How It Works
+
+* The **facts** file defines the knowledge base of symptoms and diseases.
+* The system applies logic using the `yes` predicate, which is capable of storing all necessary information.
+* The GUI gathers user input (symptoms) and displays possible diagnoses.
+
+---
+## 👤👤👤 Authors
 
 * **Juliana Pineda** 
 * **Cristian Andres Arce**
