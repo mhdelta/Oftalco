@@ -68,6 +68,6 @@ oftalco/
 
 * **Juliana Pineda** 
 * **Cristian Andres Arce**
-* **Miguel Angel Henao** - *Main repo* - [OFTALCO](https://github.com/mhdelta/Oftalco)
+* **Mguel Angel Henao** - *Main repo* - [OFTALCO](https://github.com/mhdelta/Oftalco)
 
 
